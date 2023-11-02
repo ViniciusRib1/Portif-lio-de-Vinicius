@@ -1,0 +1,287 @@
+body {
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+    padding: 50px;
+    background: radial-gradient(circle, rgb(2, 2, 186), rgb(0, 0, 133), rgb(0, 0, 70));   
+    justify-content: center;
+    color: aliceblue;
+    text-align: center;
+    margin: 10px;
+    transition: cubic-bezier(1, 0.26, 0, 1.41);
+    font-size: 20px;
+    text-shadow: black 10px 1px 10px;
+}
+nav h1 {
+    width: 1500px;
+    margin: 0 auto;
+    text-align: center;
+    border-bottom: solid 2px white;
+    text-shadow: 2px 2px 2px black;
+    padding: 20px;
+    transition: all 0.5s;
+    border-bottom: solid 2px white;
+    padding: 20px;
+    font-size: 60px;
+    margin-bottom: 50px;
+}
+nav h1 {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    border-bottom: solid 2px white;
+    text-shadow: 2px 2px 2px black;
+    padding: 20px;
+    transition: all 0.5s;
+    border-bottom: solid 2px white;
+    padding: 60px;
+    font-size: 40px;
+    margin-bottom: 40px; 
+}
+nav a {
+    color: aliceblue;
+    text-decoration: none;
+    padding: 20px;
+    transition: ease-in-out 1s;
+    margin: 50px;
+}
+nav a:hover {
+    border-bottom: solid 2px white;
+    transition: ease-in-out 0.5s;
+    font-size: larger;
+    padding: 20px;
+    margin: 50px;
+}
+#select {
+    border-bottom: solid 2px white;
+    padding: 20px;
+}
+.Bemvind {
+    margin-top: 60px;
+}
+footer h1 {
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    border-bottom: solid 2px white;
+    text-shadow: 2px 2px 2px black;
+    padding: 20px;
+    transition: all 0.5s;
+    border-bottom: solid 2px white;
+    padding: 20px;
+    font-size: 30px;
+}
+.venem {
+    width: 500px;height: 500px;display: flex;align-content: center;justify-content: center;overflow: hidden;border-radius: 50%;border: 2px solid white;margin: auto;
+  }
+.setup {
+    border-left: solid 4px rgb(49, 47, 47);
+    padding-left: 10px;
+    text-align: left;
+    margin-left: 420px;
+}
+..A {
+  margin: 0 auto; /* Define as margens automáticas para centralizar horizontalmente */
+  text-align: center; /* Centraliza o conteúdo de texto */
+  justify-content: center; /* Centraliza os filhos horizontalmente */
+  align-items: center; /* Centraliza os filhos verticalmente */
+}
+  .gostos h1 {
+    display: contents;
+    border-top: 2px solid white;
+    padding: 30px;
+  }
+  .redes {
+    padding: 100px;
+  }
+  .redes a {
+    border: solid white 2px;
+    margin: 40px;
+    padding: 50px;
+    color: aliceblue;
+    font-size: 40px;
+    transition: ease-in-out 1s;
+    border-radius: 20px;
+  }
+  .redes a:hover {
+    border: solid white 2px;
+    margin: 50px;
+    padding: 60px;
+    color: aliceblue;
+    font-size: 60px;
+    transition: ease-in-out 0.5s;
+  }
+
+.teladodc {
+    background-color: rgb(36, 35, 35);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    border-radius: 20px;
+    padding: 60px;
+    text-align: center;
+    transition: all 1s;
+}
+.container-slider {
+  width: 100%;
+  min-height: 100vh;
+  border-radius: 10px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.container-images {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 800px;
+}
+.slider {
+  position: absolute;
+  width: 100%;
+  border-radius: 20px;
+}
+
+button {
+  background-color: transparent;
+  cursor: pointer;
+  color: aliceblue;
+  border: none;
+  transition: all 0.5s;
+}
+button:hover {
+  background-color: white;
+  cursor: pointer;
+  color: black;
+  border: none;
+  padding: 5px;
+  transition: all 0.5s;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 1600px) {
+  body {
+      padding: 10px;
+      font-size: 20px;
+  }
+
+  nav h1 {
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+    border-bottom: solid 2px white;
+    text-shadow: 2px 2px 2px black;
+    padding: 20px;
+    transition: all 0.5s;
+    border-bottom: solid 2px white;
+    padding: 60px;
+    font-size: 40px;
+    margin-bottom: 40px; 
+}
+.venem {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  border-radius: 50%;border: 2px solid white;margin: auto;
+}
+nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 50px;
+    transition: ease-in-out 1s;
+    margin: 50px;
+    display: flow-root;
+}
+nav a:hover {
+    border-bottom: solid 2px white;
+    transition: ease-in-out 0.5s;
+    font-size: larger;
+}
+.redes a {
+  margin: 10px auto; /* Centraliza horizontalmente usando margens automáticas */
+  border: solid white 2px;
+  color: aliceblue;
+  font-size: 100px;
+  transition: ease-in-out 1s;
+  border-radius: 20px;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center; /* Centraliza verticalmente */
+  justify-items: center;
+  align-items: center; /* Centraliza horizontalmente */
+  text-align: center; /* Centraliza o conteúdo de texto */
+}
+.redes a:hover {
+  border: solid white 2px;
+  margin: 50px;
+  padding: 60px;
+  color: aliceblue;
+  font-size: 60px;
+  transition: ease-in-out 0.5s;
+}
+
+  .teladodc {
+      padding: 10px;
+  }
+  .setup {
+    padding-left: 10px;
+    text-align: center;
+    margin-left: 50px;
+}
+.A {
+  margin: 0 auto; /* Define as margens automáticas para centralizar horizontalmente */
+  text-align: center; /* Centraliza o conteúdo de texto */
+  justify-content: center; /* Centraliza os filhos horizontalmente */
+  align-items: center; /* Centraliza os filhos verticalmente */
+}
+  .gostos h1 {
+    display: block;
+    text-align: center;
+    justify-content: center;
+}
+
+  .container-slider {
+      gap: 0.5rem;
+  }
+  footer h1 {
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+    border-bottom: solid 2px white;
+    text-shadow: 2px 2px 2px black;
+    padding: 40px;
+    transition: all 0.5s;
+    border-bottom: solid 2px white;
+    padding: 20px;
+    font-size: 30px;
+}
+}
+@media screen and (max-width: 500px) {
+  .redes a {
+    justify-items: center; 
+    justify-content: center;
+    justify-self: center;
+    margin-left: -100px;
+    font-size: 50px;
+    display: inline-flex;
+  }
+  .redes a:hover {
+    border: solid white 2px;
+    color: aliceblue;
+    font-size: 60px;
+    transition: ease-in-out 0.5s;
+  }
+  .venem {
+    width: 200px;
+    height: 200px;
+    align-content: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin: auto;
+  }
+}
